@@ -9,7 +9,7 @@
 
 /* Navbar */
 .navbar{
-    background-color: #cecece74;
+    background-color: #ffffff;
 }
 .toggleWrapper {
     position: absolute;
@@ -251,7 +251,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #f4f4f5;
+  background-color: rgb(186 230 253);
   -webkit-transition: .4s;
   transition: .4s;
   border-radius: 30px;
@@ -269,7 +269,7 @@
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
-  background: linear-gradient(40deg,#ff0080,#ff8c00 70%);
+        background: linear-gradient(40deg,#ff0080,#ff8c00 70%);
   ;
  -webkit-transition: .4s;
   ;
