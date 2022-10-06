@@ -6,7 +6,11 @@ module.exports = {
     "./public/login/login.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        'logo': '12em',
+      }
+    },
   },
   plugins: [],
 }
