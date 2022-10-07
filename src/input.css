@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -298,9 +299,68 @@ input:checked + .slider:before {
   margin-left: 40em;
 }
 /* fin boton white-mode & dark-mode */
+/* fin Navbar */
+
+.diseño{
+  text-align: center;
+  margin-top: 0.1em;
+  font-size: 2em;
+  font-family: 'Fredoka', sans-serif;
+  font-style: bold;
+  text-shadow: 5px 5px 6px #000;
+}
+
+.imgdesign{
+  width: 50%;
+  height: 50%;
+  margin-top: 6em;
+  margin-left: 30em;
+}
+
+.textdesign{
+  margin-top: 6em;
+  margin-left: 3em;
+  font-size: 1.5em;
+  font-family: 'Fredoka', sans-serif;
+  text-shadow: 5px 5px 6px #000;
+  width: 18em;
+  height: 10em;
+  left: 40em;
+  top: 10em;
+  line-height: 44px;
+  text-align: center;
+}
 
 
 
+@media screen and (max-width: 768px) {
+  .imgdesign{
+    width: 60%;
+    height: 60%;
+    margin-top: 2em;
+    margin-left: 4em;
+  }
 
+  .textdesign{
+    margin-top: 0.5em;
+    margin-left: 1em;
+    font-size: 1em;
+    font-family: 'Fredoka', sans-serif;
+    text-shadow: 5px 5px 6px #000;
+    width: 13em;
+    height: 10em;
+    left: 40em;
+    line-height: 33px;
+    text-align: center;
+  }
 
+  .diseño{
+    text-align: center;
+    margin-top: 0.3em;
+    font-size: 1.5em;
+    font-family: 'Fredoka', sans-serif;
+    font-style: bold;
+    text-shadow: 5px 5px 6px #000;
+  }
+}
 
