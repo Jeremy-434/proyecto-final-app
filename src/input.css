@@ -304,10 +304,11 @@ input:checked + .slider:before {
 .diseño{
   text-align: center;
   margin-top: 0.1em;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: 'Fredoka', sans-serif;
   font-style: bold;
-  text-shadow: 5px 5px 6px #000;
+  text-shadow: 2px 2px 4px #000;
+  margin-right: 10em;
 }
 
 .imgdesign{
