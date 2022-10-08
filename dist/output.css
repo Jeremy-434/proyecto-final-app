@@ -1538,6 +1538,11 @@ input:checked + .slider:before {
   color: rgb(37 99 235 / var(--tw-text-opacity));
 }
 
+.hover\:text-teal-500:hover{
+  --tw-text-opacity: 1;
+  color: rgb(20 184 166 / var(--tw-text-opacity));
+}
+
 @media (min-width: 768px){
   .md\:mx-4{
     margin-left: 1rem;
